@@ -7,6 +7,7 @@ import Part2 from './Part2';
 import Part3 from './Part3';
 import Part4 from './Part4';
 import ReactMeal from './ReactMeal';
+import NaverMovie from './NaverMovie';
 import Header from './include/Header';
 
 function App(){
@@ -23,6 +24,7 @@ function App(){
 							<Route path="/part3" element={<Part3/>}/>
 							<Route path="/part4" element={<Part4/>}/>
 							<Route path="/reactMeal" element={<ReactMeal/>}/>
+							<Route path="/naverMovie" element={<NaverMovie/>}/>
 						</Routes>
 					</Router>
 			</div>
