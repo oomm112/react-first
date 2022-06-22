@@ -2,31 +2,31 @@
 1. async : 비동기 처리를 위한 promise 동작을 한다는것을 명시
 2. await : 결과를 기다리는 함수 앞에 작성
 
-# -----------------------------------------------------------
+
 # fetch
-ex) function fetchHandler() {
-  fetch(url, [option]).then(() => {});
+ex) function fetchHandler() {<br>
+fetch(url, [option]).then(() => {});<br>
 }
 
 # Example
-function fetchHandler() {
-  fetch(url, {
-    method: "GET" OR "POST"
-    headers: {
-      'Context-type':'application/json'
-      'key':'val'
-    }
-    }).then(response => {...});
+function fetchHandler() {<br>
+  fetch(url, {<br>
+    method: "GET" OR "POST"<br>
+    headers: {<br>
+      'Context-type':'application/json'<br>
+      'key':'val'<br>
+    }<br>
+    }).then(response => {...});<br>
 }
 
 # Exception hanldling?
-try{
-  if(!response.ok){
-    throw new Error('Error');
-  }
-}catch(error){
-  //Error Exception code
-}
+try{<br>
+  if(!response.ok){<br>
+    throw new Error('Error');<br>
+  }<br>
+}catch(error){<br>
+  //Error Exception code<br>
+}<br>
 
-# -----------------------------------------------------------
+
 # axios
