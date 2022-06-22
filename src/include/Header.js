@@ -27,6 +27,9 @@ function Header() {
               <li>
                 <Link to="/reactMeal">ReactMeal</Link>
               </li>
+              <li>
+                <Link to="/httpMovie">HttpMovie</Link>
+              </li>
           </ul>
         </header>
         <hr/>

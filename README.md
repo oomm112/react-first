@@ -30,3 +30,15 @@ try{<br>
 
 
 # axios
+ex) axios.[method](url, [option]).then(() => {}).catch(() => {});
+
+# Example
+function axiosHandler() {<br>
+  axios.post("url",{<br>
+    title: 'title',<br>
+    content: 'content'<br>
+    }).then().catch();<br>
+}
+
+# Exception handling?
+.catch()가 붙어있음 
